@@ -1,0 +1,6 @@
+node_modules/
+# Ignore specific files
+/build
+/dist
+/coverage
+/*.css
