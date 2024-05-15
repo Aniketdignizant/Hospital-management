@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "id": "8f97",
+      "role": "patient",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234",
+      "user_name": "aniket12345"
+    },
+    {
+      "id": "5b62",
+      "role": "admin",
+      "email": "sagar@gmail.com",
+      "password": "Sag@123",
+      "user_name": "qwewe233131"
+    },
+    {
+      "id": "1e3e",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234",
+      "role": "admin"
+    },
+    {
+      "id": "2c3e",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234",
+      "role": "admin"
+    },
+    {
+      "id": "f280",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234",
+      "role": "admin"
+    },
+    {
+      "id": "32de",
+      "role": "patient",
+      "email": "aniket1234@gmail.com",
+      "password": "Aa@123",
+      "user_name": "fggff1234"
+    },
+    {
+      "id": "836e",
+      "role": "patient",
+      "email": "dhuyhuaval01@yopmail.com",
+      "password": "Saket@123",
+      "user_name": "dsadss1213"
+    },
+    {
+      "id": "61cc",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234",
+      "role": "patient"
+    },
+    {
+      "id": "d483",
+      "role": "admin",
+      "email": "aniketfvdgfgf@gmail.com",
+      "password": "aNI@123",
+      "user_name": "df342422"
+    },
+    {
+      "id": "b14b",
+      "role": "patient",
+      "email": "rameddf@gmail.com",
+      "password": "An@123",
+      "user_name": "fdfd3232"
+    },
+    {
+      "id": "299a",
+      "role": "patient",
+      "email": "xyzddsd@gmail.com",
+      "password": "Ani@123",
+      "user_name": "dsadsds2332"
+    },
+    {
+      "id": "669b",
+      "role": "doctor",
+      "email": "gfgfhfhggg@gmail.com",
+      "password": "Aniket@1999",
+      "user_name": "anikererfs1223"
+    },
+    {
+      "id": "c64a",
+      "email": "gfgfhfhggg@gmail.com",
+      "password": "Aniket@1999",
+      "role": "doctor"
+    },
+    {
+      "id": "09df",
+      "role": "patient",
+      "email": "inforfbbghgghgmation@gmail.com",
+      "password": "Ani@123",
+      "user_name": "hghg4544"
+    },
+    {
+      "id": "f2d6",
+      "role": "patient",
+      "email": "jjdsdsdss@gmail.com",
+      "password": "Aniket@123",
+      "user_name": "cxsfdfd3424"
+    },
+    {
+      "id": "abde",
+      "email": "gfgfhfhggg@gmail.com",
+      "password": "Aniket@1999",
+      "role": "doctor"
+    },
+    {
+      "id": "a15b",
+      "params": {
+        "email": "gfgfhfhggg@gmail.com",
+        "password": "Aniket@1999"
+      }
+    },
+    {
+      "id": "29aa",
+      "params": {
+        "email": "dhuyhuaval01@yopmail.com",
+        "password": "Saket@123"
+      }
+    },
+    {
+      "id": "09d2",
+      "params": {
+        "email": "gfgfhfhggg@gmail.com",
+        "password": "Aniket@1999"
+      }
+    },
+    {
+      "id": "fa0f",
+      "params": {
+        "email": "gfgfhfhggg@gmail.com",
+        "password": "Aniket@1999"
+      }
+    },
+    {
+      "id": "1e41",
+      "params": {
+        "email": "dhuyhuaval01@yopmail.com",
+        "password": "Saket@123"
+      }
+    },
+    {
+      "id": "2b2e",
+      "email": "dhuyhuaval01@yopmail.com",
+      "password": "Saket@123"
+    },
+    {
+      "id": "9635",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "569f",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "bc84",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "5fce",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "cf78",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "f103",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "5976",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "6821",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "1cee",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "e5e2",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "0f5e",
+      "email": "sagar@gmail.com",
+      "password": "Sag@123"
+    },
+    {
+      "id": "8315",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "32fc",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "412e",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "b712",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "1db6",
+      "email": "aniket@gmail.com",
+      "password": "Aniket@1234"
+    },
+    {
+      "id": "0ae2",
+      "role": "patient",
+      "email": "asdad@gmail.com",
+      "password": "Aniket@123",
+      "user_name": "xfvxdvd2344"
+    }
+  ]
+}
