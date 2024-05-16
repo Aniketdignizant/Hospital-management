@@ -4,7 +4,7 @@ import { initialValues, validationSchema } from '../Schema.js/RegisterSchema'
 import toast from 'react-hot-toast'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchAllUsers, registerUser } from '../redux/userAuth/userAuthSlice'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Register() {
   const dispatch = useDispatch()
@@ -235,6 +235,14 @@ function Register() {
           disabled={status === 'loading'}>
           {status === 'loading' ? 'Submitting...' : 'Submit'}
         </button>
+        <div>
+          {' '}
+          <Link
+            to="/login"
+            className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+            Login
+          </Link>
+        </div>
       </form>
     </div>
   )

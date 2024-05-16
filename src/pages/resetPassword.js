@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { changePassword } from '../redux/userAuth/userAuthSlice'
+import { useNavigate } from 'react-router-dom'
 
 const ResetPassword = () => {
   const [email, setEmail] = useState('')
   const [oldPassword, setOldPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
-  const [message, setMessage] = useState('')
-
-  const handleSubmit = (e) => {
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+  const handleChangePassword = (e) => {
     e.preventDefault()
-    // Add your password reset logic here
-    setMessage('Password reset instructions sent to your email.')
+    dispatch(changePassword({ email, oldPassword, newPassword, navigate }))
   }
 
   return (
@@ -20,13 +22,8 @@ const ResetPassword = () => {
             Reset Your Password
           </h2>
         </div>
-        {message && (
-          <div className="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3 my-4">
-            <p className="font-bold">Note:</p>
-            <p>{message}</p>
-          </div>
-        )}
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+
+        <form className="mt-8 space-y-6" onSubmit={handleChangePassword}>
           <input type="hidden" name="remember" value="true" />
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
@@ -79,13 +76,11 @@ const ResetPassword = () => {
             </div>
           </div>
 
-          <div>
-            <button
-              type="submit"
-              className="w-full mt-4 py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              Reset Password
-            </button>
-          </div>
+          <button
+            type="submit"
+            className="w-full mt-4 py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Change Password
+          </button>
         </form>
       </div>
     </div>
