@@ -12,20 +12,19 @@ import ResetPassword from './resetPassword.js'
 const mainRouts = () => {
   // const admin = localStorage.getItem('userData')
   // console.log('admin', admin)
-  const admin = JSON.parse(localStorage.getItem('userData'))
-  console.log('admin', admin)
+  // const admin = JSON.parse(localStorage.getItem('userData'))
   return (
     <Router>
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/resetPassword" element={<ResetPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
 
         <Route path="/adminDashboard" element={<AdminDashboard />} />
-        <Route path="/adminDashboard" element={<DoctorDashboard />} />
-        <Route path="/adminDashboard" element={<DoctorIndex />} />
-        <Route path="/adminDashboard" element={<Index />} />
-        <Route path="/adminDashboard" element={<PatientDashboard />} />
+        <Route path="/doctorDashboard" element={<DoctorDashboard />} />
+        <Route path="/doctorIndex" element={<DoctorIndex />} />
+        <Route path="/index" element={<Index />} />
+        <Route path="/patientDashboard" element={<PatientDashboard />} />
       </Routes>
     </Router>
   )
